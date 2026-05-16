@@ -2,7 +2,7 @@ import os
 import subprocess
 
 base_path = "/mnt/c/Users/pooja/"
-full_path = f"{base_path}/Documents/AI/"
+full_path = f"{base_path}Documents/AI/"
 full_path=f"{base_path}Documents/work_script/test_data/kng/sequences/kng_abjbdb1"
 
 for root, dirs, files in os.walk(full_path):
