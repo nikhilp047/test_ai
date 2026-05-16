@@ -1,0 +1,6 @@
+#!/bin/bash
+
+path="/mnt/c/Users/pooja/Documents/AI"
+# find "$path" -type d
+# du -h "$path"
+du -h --max-depth=1 "$path"
